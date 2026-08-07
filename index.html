@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>JOZZY Creativity World</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8f7;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background: #075f42;
+      min-height: 600px;
+      padding: 50px 15px;
+      text-align: center;
+      color: white;
+    }
+
+    /* LOGO */
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      white-space: nowrap;
+      margin-bottom: 65px;
+    }
+
+    .logo span {
+      color: #f5b82e;
+    }
+
+    /* MENU */
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      color: #f5b82e;
+    }
+
+    /* HOME */
+    .hero {
+      text-align: center;
+      padding: 75px 25px 60px;
+    }
+
+    .hero h1 {
+      color: #075f42;
+      font-size: 45px;
+      line-height: 1.3;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .line {
+      width: 55px;
+      height: 4px;
+      background: #f5b82e;
+      margin: 25px auto;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 20px;
+      line-height: 1.7;
+    }
+
+    /* BUTTON */
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 16px 30px;
+      background: #075f42;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .button:hover {
+      background: #064d36;
+    }
+
+    /* HIGHLIGHTS */
+    .highlights {
+      max-width: 900px;
+      margin: 20px auto 70px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 20px;
+      border-radius: 14px;
+      box-shadow: 0 5px 20px #ddd;
+      text-align: center;
+    }
+
+    .card-icon {
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+
+    .card h2 {
+      color: #075f42;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #075f42;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+
+      .logo {
+        font-size: 30px;
+      }
+
+      .menu a {
+        font-size: 23px;
+      }
+
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      .hero p {
+        font-size: 19px;
+      }
+
+      .highlights {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="logo">
+      JOZZY <span>Creativity World</span>
+    </div>
+
+    <div class="menu">
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="service.html">Services</a>
+
+      <a href="contact.html">Contact</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- HOME CONTENT -->
+
+  <section class="hero">
+
+    <h1>
+      Creative Printing &amp; Branding Solutions
+    </h1>
+
+    <div class="line"></div>
+
+    <p>
+      We help businesses, organizations and individuals
+      bring their ideas to life through quality printing,
+      creative graphic design and professional branding.
+    </p>
+
+    <a href="contact.html" class="button">
+      Get Started
+    </a>
+
+  </section>
+
+
+  <!-- HIGHLIGHTS -->
+
+  <section class="highlights">
+
+    <div class="card">
+
+      <div class="card-icon">🎨</div>
+
+      <h2>Creative Design</h2>
+
+      <p>
+        Unique and professional designs
+        created for your needs.
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="card-icon">🖨️</div>
+
+      <h2>Quality Printing</h2>
+
+      <p>
+        Quality printing for personal,
+        business and event materials.
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="card-icon">⭐</div>
+
+      <h2>Professional Branding</h2>
+
+      <p>
+        Branding solutions that help
+        your business stand out.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 JOZZY Creativity World.
+    All Rights Reserved.
+  </footer>
+
+</body>
+</html>

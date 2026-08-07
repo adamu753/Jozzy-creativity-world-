@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact - JOZZY Creativity World</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8f7;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background: #075f42;
+      min-height: 600px;
+      padding: 50px 15px;
+      text-align: center;
+      color: white;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      white-space: nowrap;
+      margin-bottom: 65px;
+    }
+
+    .logo span {
+      color: #f5b82e;
+    }
+
+    /* MENU */
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      color: #f5b82e;
+    }
+
+    /* CONTACT */
+    .contact {
+      padding: 75px 25px;
+      text-align: center;
+      min-height: 750px;
+    }
+
+    .contact h1 {
+      color: #075f42;
+      font-size: 45px;
+    }
+
+    .line {
+      width: 55px;
+      height: 4px;
+      background: #f5b82e;
+      margin: 25px auto 35px;
+    }
+
+    .intro {
+      max-width: 650px;
+      margin: auto;
+      font-size: 20px;
+      line-height: 1.8;
+    }
+
+    /* CONTACT CARDS */
+    .contact-list {
+      max-width: 700px;
+      margin: 50px auto;
+    }
+
+    .contact-card {
+      background: white;
+      padding: 30px 25px;
+      margin: 20px 0;
+      border-radius: 14px;
+      box-shadow: 0 5px 20px #ddd;
+    }
+
+    .contact-icon {
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+
+    .contact-card h2 {
+      color: #075f42;
+      margin-bottom: 12px;
+    }
+
+    .contact-card a {
+      color: #222;
+      text-decoration: none;
+      font-size: 18px;
+      word-break: break-word;
+    }
+
+    /* WHATSAPP */
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 16px 28px;
+      background: #075f42;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .whatsapp:hover {
+      background: #064d36;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #075f42;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+
+      .contact h1 {
+        font-size: 42px;
+      }
+
+      .contact-card a {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="logo">
+      JOZZY <span>Creativity World</span>
+    </div>
+
+    <div class="menu">
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="service.html">Services</a>
+
+      <a href="contact.html">Contact</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- CONTACT CONTENT ONLY -->
+
+  <section class="contact">
+
+    <h1>Contact Info</h1>
+
+    <div class="line"></div>
+
+    <p class="intro">
+      Have a project in mind or need more information?
+      Get in touch with JOZZY Creativity World.
+    </p>
+
+
+    <div class="contact-list">
+
+      <!-- PHONE -->
+
+      <div class="contact-card">
+
+        <div class="contact-icon">📞</div>
+
+        <h2>Phone Number</h2>
+
+        <a href="tel:07042653111">
+          07042653111
+        </a>
+
+      </div>
+
+
+      <!-- EMAIL -->
+
+      <div class="contact-card">
+
+        <div class="contact-icon">📧</div>
+
+        <h2>Email Address</h2>
+
+        <a href="mailto:unuigbojejoseph@gmail.com">
+          unuigbojejoseph@gmail.com
+        </a>
+
+      </div>
+
+
+      <!-- WHATSAPP -->
+
+      <div class="contact-card">
+
+        <div class="contact-icon">💬</div>
+
+        <h2>WhatsApp</h2>
+
+        <a
+          class="whatsapp"
+          href="https://wa.me/2347042653111"
+          target="_blank">
+          Chat With Us
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 JOZZY Creativity World.
+    All Rights Reserved.
+  </footer>
+
+</body>
+</html>
